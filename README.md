@@ -88,6 +88,8 @@ grunt.initConfig({
 
 This task supports all the file mapping format Grunt supports. Please read [Globbing patterns](http://gruntjs.com/configuring-tasks#globbing-patterns) and [Building the files object dynamically](http://gruntjs.com/configuring-tasks#building-the-files-object-dynamically) for additional details.
 
+**注意：** 由于在云空间上建立空目录没有实际意义，因此，本地空目录将被略过。
+
 ## 版权和协议
 
 本插件所有代码版权归 [Bootstrap中文网](http://www.bootcss.com) 所有，遵循 MIT 开源协议。
